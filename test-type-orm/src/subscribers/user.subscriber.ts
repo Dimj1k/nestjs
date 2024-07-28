@@ -20,6 +20,6 @@ export class UserSubscriber implements EntitySubscriberInterface<User> {
     }
 
     async beforeRemove(event: RemoveEvent<User>): Promise<void> {
-        console.log(`${event.entityId} удалён`)
+        console.log(`удалён`)
     }
 }
